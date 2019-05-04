@@ -7,19 +7,19 @@ package objetos;
 
 /**
  *
- * @author new_m
+ * @author Norma Carolina Javier González
  */
 public class Cubo extends Cuadrado {
     
-    Cubo(int lado) {
+    Cubo(int lado) {//Constructor
         super(lado);
     }
     
-    public double calcularVolumen() {
+    public double calcularVolumen() {//Calculamos el volumen
         return Math.pow(this.lado, 3);
     }
     
-    public double calcularPerimetro(){
+    public double calcularPerimetro(){//Calculamos el perimetro
         return this.lado * 12;
     }
 }

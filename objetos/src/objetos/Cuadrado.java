@@ -7,20 +7,20 @@ package objetos;
 
 /**
  *
- * @author new_m
+ * @author Norma Carolina Javier González
  */
 public class Cuadrado {
-    protected int lado;
+    protected int lado; //Variable que almacena el lado
     
-    Cuadrado(int lado) {
+    Cuadrado(int lado) { //Constructor
         this.lado=lado;
     }
 
-    public double calcularArea(){
+    public double calcularArea(){ //Calculamos el area
         return Math.pow(this.lado, 2);
     }
     
-    public double calcularPerimetro(){
+    public double calcularPerimetro(){//Calculamos el perimetro
         return this.lado * 4;
     }
 }
